@@ -1,0 +1,37 @@
+# Build artifacts inside ParkingSystem/
+ParkingSystem/bin/
+ParkingSystem/obj/
+ParkingSystem/out/
+
+# IDE settings
+.vscode/
+ParkingSystem/.vs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Configuration and secrets
+ParkingSystem/appsettings.Development.json
+ParkingSystem/appsettings.Local.json
+ParkingSystem/secrets.json
+
+# Test results
+ParkingSystem/TestResults/
+*.trx
+
+# NuGet packages
+*.nupkg
+*.snupkg
+ParkingSystem/packages/
+
+# OS-specific
+.DS_Store
+Thumbs.db
