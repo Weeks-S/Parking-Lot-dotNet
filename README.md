@@ -12,7 +12,7 @@ A simple .NET console application that simulates a parking lot. It stores vehicl
 From PowerShell, in the repository root or project directory:
 
 ```powershell
-cd "C:\Users\garon\.NET\ParkingSystem"
+cd "C:\Users\Project\ParkingSystem"
 
 dotnet build
 ```
@@ -25,7 +25,7 @@ Start the interactive console app:
 dotnet run
 
 # Or from anywhere
-# dotnet run --project "C:\Users\garon\.NET\ParkingSystem\ParkingSystem.csproj"
+# dotnet run --project "C:\Users\Project\ParkingSystem\ParkingSystem.csproj"
 ```
 
 When the app starts, you will be prompted for the parking lot capacity (positive integer). After that, use the commands described below.
